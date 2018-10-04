@@ -7,11 +7,13 @@
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
     color: #FF0000;
     font-size: 36pt;
+    font-family: 'Raleway', sans-serif;
     text-decoration: none;
 }
 
 .content {
-    margin-left: 20px;
+    margin-left: 20px
+    font-family: 'Raleway', sans-serif;
 }
 
 .save {
@@ -45,7 +47,8 @@
 .author {
     color: #FF0000
     font-size: 26pt;
-    padding-left: 10px;  
+    padding-left: 10px;
+    font-family: 'Raleway', sans-serif; 
 }
 
 .post {
@@ -58,7 +61,6 @@
 .post.text {
     color: #FF0000;
     text-align: justify;
-    font-family: 'Raleway', sans-serif;
     padding-left: 20px;
     font-size: 50px;
 }
