@@ -5,7 +5,7 @@
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
-    color: #FF0000;
+    color: #282828;
     font-size: 36pt;
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
@@ -31,8 +31,8 @@
     margin-right: 20px;
 }
 
-.post.title {
-    color: #282828;
+.post-title {
+    color: #FFDBEE;
     font-size: 50pt;
     text-decoration: none;
     padding-left: 20px
@@ -62,5 +62,5 @@
     color: #FF0000;
     text-align: justify;
     padding-left: 20px;
-    font-size: 50px;
+    font-size: 30px;
 }
