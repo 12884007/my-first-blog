@@ -108,9 +108,11 @@ LANGUAGE_CODE = 'en-us'
 
 TIME_ZONE = 'Australia/Sydney'
 
+DATE_FORMAT = '%d %B %Y', '%d %B, %Y'
+
 USE_I18N = True
 
-USE_L10N = True
+USE_L10N = False
 
 USE_TZ = True
 
