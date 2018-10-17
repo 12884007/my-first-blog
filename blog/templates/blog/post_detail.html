@@ -5,14 +5,17 @@
     	<h2><div class= post.title><h2>
         {{ post.title }}
     </div>
-    <div class="author">
-    	{{ author }}
+    <div class= subhead>
+        <p> {{subhead}} </p>
     </div>
-        {% if post.published_date %}
-            <div class="date">
-                {{ post.date }}
+    <div class= image>
+        {{image}}
+    </div>
+    <div class="author">
+    	<p> By {{ user }} </p>
+                <div class="date">
+                {{ post.published_date|date:"j F Y" }}
             </div>
-        {% endif %}
         <div class="posttext">
         <p>{{ post.text|linebreaksbr }}</p>
         </div>

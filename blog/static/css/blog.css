@@ -1,9 +1,9 @@
 .page-header {
     background-color: #ffffff;
     margin-top: 5px;
-    margin-left: 20px
+    margin-left: 20px;
     margin-right: 20px;
-    margin-bottom: 20px
+    margin-bottom: 20px;
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
@@ -13,9 +13,9 @@
     text-decoration: none;
     text-align: center;
     margin-top: 0px;
-    margin-left: 20px
+    margin-left: 20px;
     margin-right: 20px;
-    margin-bottom: 20px
+    margin-bottom: 20px;
 }
 .colorstrip{
     width: 99.7%; height: 1px;
@@ -36,9 +36,9 @@
 }
 
 .content-container{
-    margin: 50px 250px 75px 250px;
+    margin: 50px 100px 75px 250px;
     font-family: 'Karla', sans-serif;
-    background: white
+    background: white;
 }
 
 .save {
@@ -61,10 +61,16 @@
     color: #282828;
 }
 
+.subhead {
+    color: red;
+    font-size: 20px;
+    font-family: 'Karla', sans-serif;  
+}
+
 body {
     background: white url("images/pbback4crop.jpg");
     background-repeat: no-repeat;
-    background-position: 9%30%;
+    background-position: 9%36%;
     background-attachment: fixed;
 }
 
@@ -90,25 +96,29 @@ color: red;
 text-decoration: underline;
 }
 
+.postheader {
+    background-repeat: no-repeat;
+    background-position: 9%36%; 
+}
+
 .post {
     font-family: 'Karla', sans-serif;
     text-decoration: none;
     padding-left: 50px;
     justify-content: all;
-
 }
 
 .date {
-    color:  #FFDBEE;
-    font-size: 15pt;
-    padding-left: 30px;
+    color: red;
+    font-size: 20px;
+    padding-left: 0px;
     font-family: 'Karla', sans-serif;
 }
 
 .author {
-    color: #FF0000
-    font-size: 26pt;
-    padding-left: 10px;
+    color: #FFDBEE;
+    font-size: 20pt;
+    padding-left: 30px;
     font-family: 'Karla', sans-serif;
 }
 
