@@ -105,7 +105,7 @@ text-decoration: underline;
     font-family: 'Karla', sans-serif;
     text-decoration: none;
     padding-left: 50px;
-    justify-content: all;
+    text-align: justify;
 }
 
 .date {
@@ -127,5 +127,5 @@ text-decoration: underline;
     color:  #282828;
     font-size: 15pt;
     font-family: 'Karla', sans-serif;
-    justify-content: all;
+    text-align: justify;
 }

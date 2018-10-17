@@ -6,12 +6,12 @@
         {{ post.title }}
     </div>
     <div class="author">
-    	<p> By {{ user }} </p>
-                <div class="date">
-                {{ post.published_date|date:"j F Y" }}
-            </div>
-        <div class="posttext">
-        <p>{{ post.text|linebreaksbr }}</p>
-        </div>
+    <p> By {{ user }} </p>
+    <div class="date">
+    {{ post.published_date|date:"j F Y" }}
+    </div>
+    <div class="posttext">
+    <p>{{ post.text|linebreaksbr }}</p>
+    </div>
     </div>
 {% endblock %}
