@@ -155,6 +155,7 @@ text-decoration: underline;
 .commentbutton {
     font-size: 15pt;
     font-family: 'Karla', sans-serif;
+    padding-left: 50px;
 }
 
 .commentdate {
