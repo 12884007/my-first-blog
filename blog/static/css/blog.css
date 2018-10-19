@@ -36,7 +36,7 @@
 }
 
 .content-container{
-    margin: 50px 100px 75px 250px;
+    margin: 50px 275px 75px 250px;
     font-family: 'Karla', sans-serif;
     background: white;
 }
@@ -105,6 +105,7 @@ text-decoration: underline;
     font-family: 'Karla', sans-serif;
     text-decoration: none;
     padding-left: 50px;
+    padding-right: 50px;
     text-align: justify;
 }
 
@@ -122,10 +123,50 @@ text-decoration: underline;
     font-family: 'Karla', sans-serif;
 }
 
-
 .posttext {
     color:  #282828;
     font-size: 15pt;
     font-family: 'Karla', sans-serif;
     text-align: justify;
+}
+
+.comment {
+    margin: 10px 50px 20px 50px;
+    color: red
+}
+
+.commentprompt {
+    margin: 10px 50px 20px 50px;
+    color: #FFDBEE;
+    font-size: 15pt;
+    font-family: 'Karla', sans-serif;
+}
+
+.btn.btn-default {
+    margin: 10px 50px 20px 50px;
+}
+.commentauthor {
+    color: #FFDBEE;
+    font-size: 15pt;
+    padding-left: 30px;
+    font-family: 'Karla', sans-serif;
+}
+
+.commentbutton {
+    font-size: 15pt;
+    font-family: 'Karla', sans-serif;
+}
+
+.commentdate {
+    color: red;
+    font-size: 10pt;
+    padding-left: 30px;
+    font-family: 'Karla', sans-serif;
+}
+
+.commenttext {
+    color: #282828;
+    font-size: 12pt;
+    padding-left: 30px;
+    font-family: 'Karla', sans-serif;
 }

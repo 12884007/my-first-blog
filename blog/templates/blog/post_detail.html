@@ -5,6 +5,9 @@
     	<h2><div class= post.title><h2>
         {{ post.title }}
     </div>
+    <div class="subhead">
+      <p>{{ subhead }}</p>
+    </div>
     <div class="author">
         <p> By {{ user }} </p>
     </div>
@@ -15,4 +18,17 @@
         <p>{{ post.text|linebreaksbr }}</p>
     </div>
     </div>
+<a class="commentbutton" href="{% url 'add_comment_to_post' pk=post.pk %}">Comment</a>
+{% for comment in post.comments.all %}
+    <div class="comment">
+        <div class="commentauthor">{{ comment.author }}
+        </div>
+        <div class="commentdate">{{ comment.created_date|date:"j F Y" }}</div>
+        <div class="commenttext">{{ comment.text|linebreaks }}</div>
+    </div>
+{% empty %}
+    <div class="commentprompt">
+        <p>Share your thoughts with Programming Beauty</p>
+    </div>
+{% endfor %}
 {% endblock %}
